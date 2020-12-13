@@ -3,10 +3,15 @@ html, body
   height: 100%;
   margin: 0;
 }
+body#logo{
+	text-align: center;
+}
+
 
 body
 {
 background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+	text-align: center;
 }
 
 .header
@@ -30,7 +35,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #login_button
 {
-	width: 80%;border-radius: 15px;
+	width: 80%;border-radius: 2px;
 }
 
 .room_name
