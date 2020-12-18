@@ -12,12 +12,25 @@
 <script src="kwitter.js"></script>
 </head>
 <body>
+	<button style="background-image:url(download\ \(1\).png); width: 230px; height: 200px;" id="logout" onclick="logout()" class="btn btn-success" data-toggle="tooltip" title="Logout"></button>
 <center>
 	<h1 class="header">	
 		Kwitter	<sup>
 	<img src="m2.png">
 	</sup>
 </h1>
+<h1 id="username"></h1>
+<input class="form-control" id="roomname" style="height: 30px; width: 800px; " class="well" placeholder="roomname">
+<br><br><br>
+<button id="addroom" onclick="addroom()" class="btn btn-success">Add Room</button>
+<br><br>
+<div>
+	<h1 id="trending">
+
+	</h1>
+</div>
+
+
 </center>
 </body>
 </html>
